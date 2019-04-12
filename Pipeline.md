@@ -17,3 +17,5 @@ One of the lead project engineers at the smartwatch company ABC, and assigns a n
 6. Training the data on the classifier and evaluating the performance on testing data.
 7. Analyzing false negatives and false positives.
 8. Tuning the classifier to balance the false negatives and false positives.
+
+Note : MATLAB is used for Steps 1,2,4 and 6. All other details are included in the Project Report
