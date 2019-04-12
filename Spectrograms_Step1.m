@@ -95,5 +95,16 @@ figure(3),
 spectrogram(filtered_x,kaiser(n3,b1),0,64,32,'yaxis')
 title('Filtered x Kaiser with beta value 1, zero overlap and n=264')
 
+%Code to plot spectrographs using Hamming window
+figure(1),
+spectrogram(filtered_x,hamming(n1),0,64,32,'yaxis')
+title('Hamming with zero overlap and n=67 and frequency=64')
+figure(2),
+spectrogram(filtered_x,hamming(n2),0,64,32,'yaxis')
+title('Hamming with zero overlap and n=134 and frequency=64')
+figure(3),
+spectrogram(filtered_x,hamming(n3),0,64,32,'yaxis')
+title('Hamming with zero overlap and n=268 and frequency=64')
+
 
 
