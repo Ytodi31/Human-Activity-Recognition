@@ -65,12 +65,11 @@ figure(3),
 spectrogram(filtered_x,kaiser(n1,b3),0,64,32,'yaxis')
 title('Filtered x Kaiser with beta value 100, zero overlap and n=134')
 
-%%
-n1=134;
-b1=1;
 
 %Code to plot spectrographs using kaiser window varying number of frequency points same
-%and keeping beta constant 
+%and keeping beta constant
+n1=134;
+b1=1; 
 figure(1),
 spectrogram(filtered_x,kaiser(n1,b1),0,64,32,'yaxis')
 title('Filtered x Kaiser with beta value 1,f=64,zero overlap and n=134')
@@ -81,13 +80,11 @@ figure(3),
 spectrogram(filtered_x,kaiser(n1,b1),0,256,32,'yaxis')
 title('Filtered x Kaiser with beta value 1,f =256, zero overlap and n=134')
 
+%Code to plot spectrographs using kaiser window varying number of frequency points same
+%and keeping beta constant
 n1=33;
 n2=132;
-n3=264;
-
-%%
-%Code to plot spectrographs using kaiser window varying number of frequency points same
-%and keeping beta constant 
+n3=264; 
 figure(1),
 spectrogram(filtered_x,kaiser(n1,b1),0,64,32,'yaxis')
 title('Filtered x Kaiser with beta value 1,zero overlap and n=33')
